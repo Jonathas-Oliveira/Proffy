@@ -96,7 +96,7 @@
         max-width: 1100px;
         display: grid;
         grid-template-rows: 350px 1fr;
-        grid-template-columns: 2fr 1fr 1fr;
+        grid-template-columns: 2fr 20px 50rem;
         grid-template-areas: 'logo hero hero'
                              'buttons buttons total' ;
     }
@@ -104,8 +104,12 @@
         grid-area: hero;
        
     }
+
     .logo-container {
         grid-area: logo;
+    }
+    .logo-container button{
+        
     }
     .logo-container h2 {
         text-align: initial;
@@ -135,4 +139,17 @@
         font-size: 1.4rem;
         justify-self: end;
     }
+}
+
+
+.switch__container button{
+    background: none;
+    border: 0;
+    box-shadow: 0;
+    
+}
+.switch__container{
+    display: absolute !important; 
+    left: 75rem;
+    top: 2rem;
 }
