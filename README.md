@@ -1,5 +1,5 @@
 # Proffy
-### 100% built with ReactJS and TypeScript
+### 100% made with ReactJS and TypeScript
 
 Layout totally responsive.
 
